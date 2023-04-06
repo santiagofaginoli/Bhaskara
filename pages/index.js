@@ -125,7 +125,7 @@ export default function Home() {
                     />
                   </Grid>
                   <Grid
-                    css={{ my: "20px", mb:'20px'}}
+                    css={{ mb:'20px'}}
                     xs={12}
                     md={4}
                     xl={4}
@@ -149,7 +149,7 @@ export default function Home() {
                     />
                   </Grid>
                   <Grid
-                    css={{ mb: "20px", mt:'20px'}}
+                    css={{ mb: "20px",}}
                     xs={12}
                     md={4}
                     xl={4}
@@ -195,8 +195,8 @@ export default function Home() {
         </Grid.Container>
 
         <Grid.Container justify="center" gap={2} alignItems="center">
-          <Grid xs={6} md={6} xl={6} justify="center">
-            <Text h4>
+          <Grid xs={6} md={6} xl={6} justify="center" style={{textAlign:'center',padding:"10px"}}>
+            <Text   h4>
               La Formula de Bhaskara permite determinar las raíces de un
               polinomio de segundo grado, fue deducida por el famoso matemático
               indio Bhaskaracharya, más conocido como Bhaskara II.
@@ -289,7 +289,7 @@ export default function Home() {
           </Grid>
 
           <Grid.Container xs={12} md={12} xl={12} justify="center" css={{mb:'50px'}}>
-            <Grid xs={12} md={12} xl={12} justify="center">
+            <Grid xs={12} md={12} xl={12} justify="center" >
               <Text h3>
                 Esta imagen nos da un ejemplo de como hacerlo, recuerden que
                 para hacer esto la ecuacion siempre tiene que estar igualada a
@@ -306,7 +306,7 @@ export default function Home() {
             </Grid>
           </Grid.Container>
           <Grid.Container justify='center'>
-            <Grid xs={12} md={6} justify="center">
+            <Grid xs={12} md={6} justify="center" style={{textAlign:'center',padding:"10px"}}>
               <Text h3>
                 Para aplicar este metodo tienes que igualar las 2 ecuaciones, es
                 decir, ecuacion = ecuacion una vez que tenemos esto tenemos que
