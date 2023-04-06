@@ -85,16 +85,6 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -104,4 +94,18 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.nextui-c-PJLV-ijnlmIz-css {
+  display: flex;
+  justify-content: center;
+}
+
+.hero{
+  background-image: url('../public/img/fondo.avif');
+  height: 500px;
+}
+.formulario{
+  max-width: 960px;
+  max-height: 500px;
 }
